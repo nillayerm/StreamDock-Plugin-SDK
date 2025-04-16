@@ -105,7 +105,7 @@ The packaged file will be generated in the `dist` directory.
 
 If you encounter module not found errors, this is because `action_factory.py` uses `importlib.import_module` to dynamically load classes under `actions`, and `PyInstaller` statically analyzes code during packaging. PyInstaller will consider modules only used in `action` as unused and won't package them into the exe. We can directly add the relevant modules to `hiddenimports` manually to resolve this.
 
-<img src="./hiddenimports.png>
+<img src="./hiddenimports.png">
 
 ## Development Standards
 
