@@ -30,6 +30,10 @@ void HSDExampleAction::WillAppear(const nlohmann::json& payload) {
     HSDLogger::LogMessage("WillAppear");
 }
 
+void HSDExampleAction::WillDisAppear(const nlohmann::json& payload) {
+    HSDLogger::LogMessage("WillAppear");
+}
+
 void HSDExampleAction::SendToPlugin(const nlohmann::json& payload) {
     HSDLogger::LogMessage("Received message from property inspector: " + payload.dump());
 }
