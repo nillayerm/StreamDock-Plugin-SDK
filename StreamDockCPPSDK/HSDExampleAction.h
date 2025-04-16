@@ -11,5 +11,6 @@ class HSDExampleAction : public HSDAction
     virtual void KeyUp(const nlohmann::json& payload);
     virtual void SendToPlugin(const nlohmann::json& payload);
     virtual void WillAppear(const nlohmann::json& payload);
+    virtual void WillDisAppear(const nlohmann::json& payload);
 };
 

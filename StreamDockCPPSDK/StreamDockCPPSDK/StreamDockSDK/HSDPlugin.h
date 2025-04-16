@@ -68,6 +68,12 @@ public:
       const nlohmann::json &inPayload,
       const std::string &inDeviceID) override;
 
+  virtual void WillDisappearForAction(
+      const std::string& inAction,
+      const std::string& inContext,
+      const nlohmann::json& inPayload,
+      const std::string& inDeviceID) override;
+
   virtual void SendToPlugin(
       const std::string &inAction,
       const std::string &inContext,

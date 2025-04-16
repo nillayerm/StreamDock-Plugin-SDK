@@ -19,6 +19,6 @@ public:
 private:
     std::mutex mVisibleContextsMutex;
     std::set<std::string> mVisibleContexts;
-    std::map<std::string, std::shared_ptr<HSDExampleAction>> mActions;
+    std::map<std::string, std::shared_ptr<HSDAction>> mActions;
 };
 
