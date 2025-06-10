@@ -29,6 +29,7 @@ This repository includes plugin development templates for:
 - Node.js
 - C++
 - Qt
+- Python
 
 ## 🔨 Quick Start
 

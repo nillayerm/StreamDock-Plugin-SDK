@@ -1,12 +1,11 @@
 const { Plugins, Actions, log } = require('./utils/plugin');
 
-const plugin = new Plugins('xxx');
+const plugin = new Plugins();
 
 // 操作一
 plugin.action1 = new Actions({
     default: {},
     _willAppear({ context }) {
-        log.info("操作创建: ", context);
         plugin.setTitle(context, "Hello world!");
     },
     _willDisappear(data) { },
