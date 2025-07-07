@@ -9,8 +9,9 @@
 #include "NlohmannJSONUtils.h"
 #include "HSDConnectionManager.h"
 #include "HSDLogger.h"
+#include <memory>
 
-int esd_main(int argc, const char** argv, HSDBasePlugin* plugin) {
+int esd_main(int argc, const char** argv, std::shared_ptr<HSDBasePlugin> plugin) {
   if (argc != 9) {
       HSDLogger::LogMessage("Invalid number of parameters");
     return 1;

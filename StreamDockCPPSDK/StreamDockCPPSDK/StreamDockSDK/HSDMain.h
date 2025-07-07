@@ -14,4 +14,4 @@ LICENSE file.
 
 class HSDBasePlugin;
 
-int esd_main(int argc, const char** argv, HSDBasePlugin* plugin);
+int esd_main(int argc, const char** argv, std::shared_ptr<HSDBasePlugin> plugin);
