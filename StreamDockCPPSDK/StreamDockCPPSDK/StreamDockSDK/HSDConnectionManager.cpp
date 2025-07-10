@@ -126,7 +126,7 @@ HSDConnectionManager::HSDConnectionManager(
     const std::string& inPluginUUID,
     const std::string& inRegisterEvent,
     const std::string& inInfo,
-    HSDBasePlugin* inPlugin)
+    std::shared_ptr<HSDBasePlugin> inPlugin)
     : mPort(inPort),
     mPluginUUID(inPluginUUID),
     mRegisterEvent(inRegisterEvent),

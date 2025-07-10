@@ -32,7 +32,7 @@ class HSDConnectionManager {
     const std::string& inPluginUUID,
     const std::string& inRegisterEvent,
     const std::string& inInfo,
-    HSDBasePlugin* inPlugin);
+    std::shared_ptr<HSDBasePlugin> inPlugin);
 
   // Start the event loop
   void Run();
@@ -88,6 +88,6 @@ class HSDConnectionManager {
   std::string mRegisterEvent;
   websocketpp::connection_hdl mConnectionHandle;
   WebsocketClient mWebsocket;
-  HSDBasePlugin* mPlugin = nullptr;
+  std::shared_ptr<HSDBasePlugin> mPlugin = nullptr;
   std::shared_ptr<asio::io_context> mAsioContext;
 };
