@@ -96,7 +96,7 @@ async function connectElgatoStreamDeckSocket(port, uuid, event, app, info) {
     if (!$local) return;
     $lang = await new Promise(resolve => {
         const req = new XMLHttpRequest();
-        req.open('GET', `./${JSON.parse(app).application.language}.json`);
+        req.open('GET', `../${JSON.parse(app).application.language}.json`);
         req.send();
         req.onreadystatechange = () => {
             if (req.readyState === 4) {
