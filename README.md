@@ -41,12 +41,20 @@ This repository includes plugin development templates for:
 
 ## 📚 Documentation
 
-Visit our [Official Documentation](https://sdk.key123.vip/en/) for:
+Visit our [Official Development Documentation](https://sdk.key123.vip/) to get:
 
-- Detailed Development Guides
-- API References
-- Best Practice Examples
+- Detailed SDK Building Guide
+- API Reference Documentation
 - FAQ
+
+Visit our [AI-Generated Documentation](https://deepwiki.com/MiraboxSpace/StreamDock-Plugin-SDK) to get:
+
+- Detailed Plugin Development Guide
+- Detailed Documentation for Templates in Each Language
+
+For those building their own SDK templates, we recommend you check out the [Official Development Documentation](https://sdk.key123.vip/)
+
+To quickly get started developing plugins using the templates in this repository, we recommend you check out the [AI-Generated Documentation](https://deepwiki.com/MiraboxSpace/StreamDock-Plugin-SDK)
 
 ## 🎯 Plugin Publishing
 
