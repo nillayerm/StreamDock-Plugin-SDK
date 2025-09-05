@@ -13,7 +13,8 @@
         ],
         "SupportedInMultiActions": false,
         "Tooltip": "Display status1",
-        "UUID": "com.hotspot.streamdockcppsdk.demo.myaction1"
+        "UUID": "com.hotspot.streamdockcppsdk.demo.myaction1",
+        "PropertyInspectorPath": "action1/index.html"
       },
       {
         "Icon": "images/actions/actionIcon2",
@@ -28,7 +29,8 @@
         ],
         "SupportedInMultiActions": false,
         "Tooltip": "Display status2",
-        "UUID": "com.hotspot.streamdockcppsdk.demo.myaction2"
+        "UUID": "com.hotspot.streamdockcppsdk.demo.myaction2",
+        "PropertyInspectorPath": "action2/index.html"
       }
     ],
     "SDKVersion": 1,
