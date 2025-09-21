@@ -1,0 +1,27 @@
+{
+  "Actions": [
+    {
+      "UUID": "com.mirabox.streamdock.imeindicator.action",
+      "Name": "IME 상태 표시",
+      "Tooltip": "현재 입력 상태를 표시합니다 (한/영)",
+      "Icon": "images/icon.png",
+      "States": [
+        {
+          "TitleAlignment": "middle",
+          "FontSize": "20"
+        }
+      ]
+    }
+  ],
+  "Author": "Salmiron",
+  "Category": "Utilities",
+  "CodePathWin": "main.py",
+  "Version": "1.0.0",
+  "SDKVersion": 2,
+  "OS": [
+    {
+      "Platform": "windows",
+      "MinimumVersion": "10"
+    }
+  ]
+}
